@@ -1,0 +1,213 @@
+.logoLiluna {
+  width: 220px;
+  height: 80px;
+}
+header {
+  background-color: #E1BFA0;
+  position: sticky;
+  top: 0;
+}
+a {
+  text-decoration: none;
+  color: #758E53;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: 'Playfair Display', serif;
+}
+.bannerInicio {
+  background-image: url(../img/banner-sartenes.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #3E5849;
+  font-family: 'Playfair Display', serif;
+  padding: 130px;
+}
+.botonBanner{
+  background-color: #E1BFA0;
+  padding: 9px 25px;
+  border-radius: 50px;
+}
+.sobreNosotrosUbicacion {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  color: #3E5849;
+}
+.inicioColumnas {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'Playfair Display', serif;
+  color: #3E5849;
+  padding: 150px;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #3E5849;
+  font-family: 'Playfair Display', serif;
+  background-color: #E1BFA0;
+}
+.columnaIzq {
+  align-items: flex-start;  
+  flex-direction: column;
+  align-content: center;
+}
+.bannerProductos {
+  background-image: url(../img/banner-productos.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #3E5849;
+  font-family: 'Playfair Display', serif;
+  padding: 110px;
+}
+.dobleFila {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
+}
+.pequeña {
+  width: 250px;
+  height: 250px;
+}
+.bannerOfertas {
+  background-image: url(../img/banner-ofertas.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #3E5849;
+  font-family: 'Playfair Display', serif;
+  padding: 110px;
+}
+.bannerPlanCanje {
+  background-image: url(../img/banner-plan-canje.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #3E5849;
+  font-family: 'Playfair Display', serif;
+  padding: 110px;
+}
+.bannerContacto {
+  background-image: url(../img/banner-contacto.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #3E5849;
+  font-family: 'Playfair Display', serif;
+  padding: 130px;
+}
+.pequeña2 {
+  width: 100px;
+  height: 100px;    
+}
+.alejarImg {
+  padding-left: 125px;
+}
+.cajaFormulario {
+  background-color: #E1BFA0;
+  width: 300px;
+  display: block;
+  flex-direction: column;
+  border: 3px #3E5849 dashed;
+  margin: 100px;
+  color: #3E5849;
+  padding: 15px;
+  align-content: center;
+  text-align: start;
+}
+.botonEnviar {
+  display: inline;
+  align-content: center;
+  color: #3E5849;
+  width: 265px;
+}
+.anchoInput {
+  width: 230px;
+}
+.anchoInput2 {
+  width: 226px;
+}
+.anchoInput3 {
+  width: 244px;
+}
+.anchoInput4 {
+  width: 287px;
+}
+.titulo {
+  text-align: center;
+}
+@media (min-width: 300px) and (max-width: 750px) {
+  .sobreNosotrosUbicacion {
+    font-size: 80%;
+    display: block;
+    align-items: center;
+    align-content: center;
+  }
+  .logoLiluna {
+    width: 160px;
+    height: 70px;
+  }
+  .pequeña {
+    width: 190px;
+    height: 190px;
+  }
+  .bannerInicio {
+    padding: 53px;
+  }
+  .bannerPlanCanje {
+    padding: 38px;
+  }
+  .bannerProductos {
+    padding: 40px;
+  }
+  .bannerOfertas {
+    padding: 40px;
+  }
+  .bannerContacto {
+    padding: 40px;
+  }
+  .inicioColumnas {
+    padding: 30px;
+  }
+  .mapaEssen {
+    width: 270px;
+    height: 140px;
+  }
+  #videoEssen {
+    width: 230px;
+    height: 140px;
+  }
+  .cajaFormulario {
+    background-color: #E1BFA0;
+    width: 260px;
+    display: block;
+    flex-direction: column;
+    border: 3px #3E5849 dashed;
+    margin: 30px;
+    color: #3E5849;
+    padding: 5px;
+    align-content: center;
+    text-align: start;
+  }
+  .botonEnviar {
+    width: 245px;
+  }
+}
