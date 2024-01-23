@@ -211,3 +211,15 @@ footer {
     width: 245px;
   }
 }
+.productosColumnas {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'Playfair Display', serif;
+  color: #3E5849;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
